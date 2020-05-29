@@ -1,5 +1,6 @@
 package main
 
+// https://dev.to/wagslane/sorting-in-go-don-t-reinvent-this-wheel-29bg?utm_source=dormosheio&utm_campaign=dormosheio
 import (
 	"fmt"
 	"math/rand"
