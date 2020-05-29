@@ -1,5 +1,6 @@
 package main
 
+//https://www.freecodecamp.org/news/supercharge-your-dfs-with-goroutines/
 import (
 	"fmt"
 	"runtime"
