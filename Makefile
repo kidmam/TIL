@@ -7,6 +7,7 @@ vet:
 format:
 	@find . -type f -name "*.go*" -print0 | xargs -0 gofmt -s -w
 
+
 .PHONY: debs
 debs:
 	GOPATH=$(GOPATH) go get ./...
