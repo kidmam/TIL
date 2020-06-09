@@ -16,4 +16,5 @@ func main() {
 	} else {
 		fmt.Printf("Element %d not found in array %v \n", searchNumber, intArray)
 	}
+
 }
