@@ -1,5 +1,6 @@
 package json_processing
 
+// https://klotzandrew.com/blog/speeding-up-json-processing-in-go
 import (
 	"bytes"
 	"encoding/json"
