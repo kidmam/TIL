@@ -2,6 +2,21 @@ package main
 
 import "fmt"
 
+// Be able to override a struct
+type A struct {
+	year int
+}
+
+func (a A) Greet() { fmt.Println("Hello GolangUK", a.year) }
+
+type B struct {
+	A
+}
+
+func (b B) Greet() { fmt.Println("Welcome to GolangUK", b.year) }
+
+// Be able to override a struct
+
 type Calculer interface {
 	Execute(int, int) int
 }
